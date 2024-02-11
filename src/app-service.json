@@ -53,7 +53,7 @@
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('appServicePlanname'))]",
                 "siteConfig": {
                     "ftpsState": "FtpsOnly",
-                    "alwaysOn": true,
+                    "alwaysOn": false,
                     "linuxFxVersion": "[parameters('linuxFxVersion')]",
                     "minTlsVersion": "1.2"
                 }
